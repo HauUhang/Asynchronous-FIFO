@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/HauUhang/files/blob/main/readme_gif/fifo-reademe.gif"/>
+  <br>中文 | <a href="README_en.md">English</a>
+  <br>教学相长，一起进步
+</p>
 # FIFO是什么？
 FIFO(First input First Output)：先进先出，先写入的数据先读取
 
