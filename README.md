@@ -1,5 +1,5 @@
 # FIFO是什么？
-FIFI(First input First Output)：先进先出，先写入的数据先读取
+FIFO(First input First Output)：先进先出，先写入的数据先读取
 
 # 异步FIFO是什么？
 数据的读取和写入操作使用不同的时钟频率，就被称为异步FIFO。当数据需要从一个时钟域传递到另一个时钟域时，通常被称为“时钟交叉”。因此，异步FIFO的作用就是同步两个不同时钟的系统之间的数据流。
