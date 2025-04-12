@@ -3,6 +3,7 @@
   <br><a href="README.md">中文 | <a href="README_en.md">English</a>
   <br>教学相长，一起进步
 </p>
+    
 # 什么是FIFO？
 FIFO(First input First Output)：先进先出，先写入的数据先读取
     
