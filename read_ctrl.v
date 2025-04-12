@@ -1,0 +1,35 @@
+module read_ctrl (
+    input wire       rclk,
+    input wire       rrst,
+    input wire       ren,
+    input wire [2:0] wptr_gray_sync,
+
+    output wire [2:0] raddr,
+    output wire [2:0] rptr_gray,
+    output wire       empty
+);
+    reg [3:0] rptr_bin;
+    reg [3:0] rptr_gray_empty;
+
+    //写指针二进制逻辑
+    always @(posedge rclk or posedge rrst) begin
+        if (rrst)
+            rptr_bin <= 4'b0000;
+        else if (ren && ~empty)
+            rptr_bin <= rptr_bin + 1;
+    end
+
+    //读指针输出
+    assign raddr = rptr_bin[2:0];
+
+    //读指针的格雷码形式
+    always @(posedge rclk or posedge rrst) begin
+        if (rrst)
+            rptr_gray_empty <= 4'b0000;
+        else
+            rptr_gray_empty <= rptr_bin ^ (rptr_bin >> 1);
+    end
+
+    assign rptr_gray = rptr_gray_empty[2:0];
+
+endmodule

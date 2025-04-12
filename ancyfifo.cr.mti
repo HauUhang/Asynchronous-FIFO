@@ -1,0 +1,36 @@
+C:/Users/Lenovo/Desktop/Ancy_FIFO/sync_gray.v {1 {vlog -work work -vopt -stats=none C:/Users/Lenovo/Desktop/Ancy_FIFO/sync_gray.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module sync_gray
+
+Top level modules:
+	sync_gray
+
+} {} {}} C:/Users/Lenovo/Desktop/Ancy_FIFO/write_ctrl.v {1 {vlog -work work -vopt -stats=none C:/Users/Lenovo/Desktop/Ancy_FIFO/write_ctrl.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module wirte_ctrl
+
+Top level modules:
+	wirte_ctrl
+
+} {} {}} C:/Users/Lenovo/Desktop/Ancy_FIFO/testbench.v {1 {vlog -work work -vopt -stats=none C:/Users/Lenovo/Desktop/Ancy_FIFO/testbench.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module tb_sync_gray
+
+Top level modules:
+	tb_sync_gray
+
+} {} {}} C:/Users/Lenovo/Desktop/Ancy_FIFO/read_ctrl.v {1 {vlog -work work -vopt -stats=none C:/Users/Lenovo/Desktop/Ancy_FIFO/read_ctrl.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module read_ctrl
+
+Top level modules:
+	read_ctrl
+
+} {} {}} C:/Users/Lenovo/Desktop/Ancy_FIFO/dual_port_ram.v {1 {vlog -work work -vopt -stats=none C:/Users/Lenovo/Desktop/Ancy_FIFO/dual_port_ram.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module dual_port_ram
+
+Top level modules:
+	dual_port_ram
+
+} {} {}}

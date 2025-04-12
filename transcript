@@ -1,0 +1,62 @@
+# Compile of testbench.v was successful.
+# Compile of write_ctrl.v was successful.
+# Compile of read_ctrl.v was successful.
+# Compile of dual_port_ram.v was successful.
+# Compile of sync_gray.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of testbench.v was successful.
+# Compile of write_ctrl.v was successful.
+# Compile of read_ctrl.v was successful.
+# Compile of dual_port_ram.v was successful.
+# Compile of sync_gray.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_sync_gray
+# vsim -voptargs="+acc" work.tb_sync_gray 
+# Start time: 22:47:41 on Apr 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_sync_gray(fast)
+# Loading work.sync_gray(fast)
+add wave -position insertpoint sim:/tb_sync_gray/dut/*
+# Compile of testbench.v was successful.
+# Compile of write_ctrl.v was successful.
+# Compile of read_ctrl.v was successful.
+# Compile of dual_port_ram.v was successful.
+# Compile of sync_gray.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of testbench.v was successful.
+# Compile of write_ctrl.v was successful.
+# Compile of read_ctrl.v was successful.
+# Compile of dual_port_ram.v was successful.
+# Compile of sync_gray.v was successful.
+# 5 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/tb_sync_gray/dut/*
+add wave -position insertpoint sim:/tb_sync_gray/dut/*
+# Causality operation skipped due to absence of debug database file
+run
+run -finish
+# run -finish is allowed only when stepping in the C Debug tool
+# Compile of testbench.v was successful.
+# Compile of write_ctrl.v was successful.
+# Compile of read_ctrl.v was successful.
+# Compile of dual_port_ram.v was successful.
+# Compile of sync_gray.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Break key hit
+# Break key hit
+# Break key hit
+view -new wave
+# .main_pane.wave.interior.cs.body.pw.wf
+add wave -position insertpoint sim:/tb_sync_gray/dut/*
+add wave -position insertpoint sim:/tb_sync_gray/dut/*
+run -all
+# ** Note: $stop    : C:/Users/Lenovo/Desktop/Ancy_FIFO/testbench.v(39)
+#    Time: 145 ns  Iteration: 0  Instance: /tb_sync_gray
+# Break in Module tb_sync_gray at C:/Users/Lenovo/Desktop/Ancy_FIFO/testbench.v line 39
+add wave -position insertpoint sim:/tb_sync_gray/dut/*
+force -freeze sim:/tb_sync_gray/dut/sync1 1'h0 0
+add wave -position insertpoint sim:/tb_sync_gray/dut/*
+add watch \
+sim:/tb_sync_gray/dut/gray_out 
+add wave -position insertpoint sim:/tb_sync_gray/dut/*
+# End time: 23:26:25 on Apr 12,2025, Elapsed time: 0:38:44
+# Errors: 0, Warnings: 8

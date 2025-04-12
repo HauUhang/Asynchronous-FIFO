@@ -1,0 +1,65 @@
+module tb_dual_port_ram;
+    reg        wclk, rclk;
+    reg        wen, ren;
+    reg [2:0]  waddr, wdata;
+    reg [2:0]  raddr;
+    wire [2:0] rdata;
+
+    // Instantiate your DUT
+    dual_port_ram uut (
+        .wclk(wclk),
+        .wen(wen),
+        .waddr(waddr),
+        .wdata(wdata),
+        .rclk(rclk),
+        .ren(ren),
+        .raddr(raddr),
+        .rdata(rdata)
+    );
+
+    // Generate clocks
+    initial begin
+        wclk = 0;
+        forever #5 wclk = ~wclk;
+    end
+
+    initial begin
+        rclk = 0;
+        forever #7 rclk = ~rclk;
+    end
+
+    // Stimulus
+    initial begin
+        // 初始化
+        wen = 0; ren = 0;
+        waddr = 0; wdata = 0;
+        raddr = 0;
+
+        #10;
+        
+        // 写入
+        @(posedge wclk);
+        wen = 1; waddr = 3'b001; wdata = 3'b101;
+
+        @(posedge wclk);
+        wen = 1; waddr = 3'b010; wdata = 3'b111;
+
+        @(posedge wclk);
+        wen = 0;
+
+        // 等待写完成
+        #20;
+
+        // 读取
+        @(posedge rclk);
+        ren = 1; raddr = 3'b001;
+
+        @(posedge rclk);
+        raddr = 3'b010;
+
+        @(posedge rclk);
+        ren = 0;
+
+        #50 $finish;
+    end
+endmodule
