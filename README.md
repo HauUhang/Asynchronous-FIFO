@@ -3,8 +3,9 @@
   <br><a href="README.md">中文 | <a href="README_en.md">English</a>
   <br>教学相长，一起进步
 </p>
-
-@ -14,3 +14,19 @@ FIFO(First input First Output)：先进先出，先写入的数据先读取
+# 什么是FIFO？
+FIFO(First input First Output)：先进先出，先写入的数据先读取
+    
 # 异步FIFO的结构
 异步FIFO的结构如图所示：
 ![结构](https://www.runoob.com/wp-content/uploads/2021/05/v-fifo-1.jpg)
