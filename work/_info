@@ -1,0 +1,225 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/no_buffer
+T_opt
+!s110 1744462392
+VgF0VPl6HeMBW6:cIYDj1S2
+Z1 04 16 4 work tb_dual_port_ram fast 0
+=1-4c796e055d11-67fa6237-3a0-8428
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1744469263
+VIXIbZ3=1gd;5Ah5]m]`821
+04 12 4 work tb_sync_gray fast 0
+=1-4c796e055d11-67fa7d0f-1d8-7ce4
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1744462061
+VYMbD?bN`HLU:f@[R6hCnG3
+R1
+=1-4c796e055d11-67fa60ec-24b-83cc
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
+R0
+vdual_port_ram
+Z5 !s110 1744469629
+!i10b 1
+!s100 bLNUfcMLdWSHl>[Ql;@z73
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IT>XNJR=H6inD;hdHXSKE<2
+Z7 dC:/Users/Lenovo/Desktop/Ancy_FIFO
+w1744461866
+8C:/Users/Lenovo/Desktop/Ancy_FIFO/dual_port_ram.v
+FC:/Users/Lenovo/Desktop/Ancy_FIFO/dual_port_ram.v
+!i122 58
+L0 1 26
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1744469629.000000
+!s107 C:/Users/Lenovo/Desktop/Ancy_FIFO/dual_port_ram.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Lenovo/Desktop/Ancy_FIFO/dual_port_ram.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vread_ctrl
+R5
+!i10b 1
+!s100 SMgk2GS9_9mHfK;oJX@mR1
+R6
+ILVbHg2m7fBo<k7KXNBCg72
+R7
+w1744441541
+8C:/Users/Lenovo/Desktop/Ancy_FIFO/read_ctrl.v
+FC:/Users/Lenovo/Desktop/Ancy_FIFO/read_ctrl.v
+!i122 57
+L0 1 35
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Lenovo/Desktop/Ancy_FIFO/read_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Lenovo/Desktop/Ancy_FIFO/read_ctrl.v|
+!i113 0
+R11
+R3
+vread_ctrl_tb
+!s110 1744441549
+!i10b 1
+!s100 6LfoSDN<b[45HBHRl7[<I1
+R6
+I432T=aYDVAfYgHK_[?bc@0
+R7
+w1744441516
+Z12 8C:/Users/Lenovo/Desktop/Ancy_FIFO/testbench.v
+Z13 FC:/Users/Lenovo/Desktop/Ancy_FIFO/testbench.v
+!i122 17
+L0 1 64
+R8
+R9
+r1
+!s85 0
+31
+!s108 1744441549.000000
+Z14 !s107 C:/Users/Lenovo/Desktop/Ancy_FIFO/testbench.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Lenovo/Desktop/Ancy_FIFO/testbench.v|
+!i113 0
+R11
+R3
+vsync_gray
+R5
+!i10b 1
+!s100 U]iaRdRkk@@gQHXomT6^Q2
+R6
+IPF<IkhEk_KTQ99nl>ZeaA0
+R7
+w1744468844
+8C:/Users/Lenovo/Desktop/Ancy_FIFO/sync_gray.v
+FC:/Users/Lenovo/Desktop/Ancy_FIFO/sync_gray.v
+!i122 59
+L0 1 23
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Lenovo/Desktop/Ancy_FIFO/sync_gray.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Lenovo/Desktop/Ancy_FIFO/sync_gray.v|
+!i113 0
+R11
+R3
+vtb_dual_port_ram
+!s110 1744469214
+!i10b 1
+!s100 G0bD70GUo6lQGYD1_[jC;0
+R6
+IzlOi=XgIDYW@MUk5VB]AO1
+R7
+w1744462118
+R12
+R13
+!i122 35
+L0 3 74
+R8
+R9
+r1
+!s85 0
+31
+!s108 1744469214.000000
+R14
+R15
+!i113 0
+R11
+R3
+vtb_sync_gray
+!s110 1744469628
+!i10b 1
+!s100 [bBihQ[PTZOMQ[b=?[f<j3
+R6
+Ic:Q0JW@4^b2=Sk8zEfR?m1
+R7
+w1744469247
+R12
+R13
+!i122 55
+L0 3 40
+R8
+R9
+r1
+!s85 0
+31
+Z16 !s108 1744469628.000000
+R14
+R15
+!i113 0
+R11
+R3
+vtb_write_ctrl
+!s110 1744440363
+!i10b 1
+!s100 P[C`]7E?K8]=?>kkWmhfN0
+R6
+I9i9AAgkjKKjO^OH=0``o:0
+R7
+w1744437826
+R12
+R13
+!i122 11
+L0 3 54
+R8
+R9
+r1
+!s85 0
+31
+!s108 1744440363.000000
+R14
+R15
+!i113 0
+R11
+R3
+vwirte_ctrl
+R5
+!i10b 1
+!s100 K2e:2;<_<Ik`B@3XBkJP]0
+R6
+I`dKCS7KaM2i2_cV@aTNnC2
+R7
+w1744439349
+8C:/Users/Lenovo/Desktop/Ancy_FIFO/write_ctrl.v
+FC:/Users/Lenovo/Desktop/Ancy_FIFO/write_ctrl.v
+!i122 56
+L0 1 37
+R8
+R9
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Lenovo/Desktop/Ancy_FIFO/write_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Lenovo/Desktop/Ancy_FIFO/write_ctrl.v|
+!i113 0
+R11
+R3
