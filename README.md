@@ -1,6 +1,5 @@
 <p align="center">
   <img src="https://github.com/HauUhang/files/blob/main/readme_gif/fifo-reademe.gif" width="300"/>
-  <br>中文 | <a href="README_en.md">English</a>
   <br><a href="README.md">中文 | <a href="README_en.md">English</a>
   <br>教学相长，一起进步
 </p>
