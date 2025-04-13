@@ -26,3 +26,16 @@ FIFO(First input First Output)：先进先出，先写入的数据先读取
 格雷码（Gray Code）：相邻数值仅有一位变化，减少跨时钟域同步时的错误概率。
 
 指针同步：将写指针同步到读时钟域判断“空”，读指针同步到写时钟域判断“满”。
+
+# 仓库使用说明：
+1.verilog
+* 如果你有modelsim就可以clone本地后打开ancyfifo.mpf文件，即可看到所有的代码：
+![image](https://github.com/user-attachments/assets/446aaf80-9e18-4b1e-95c1-5db1e954ae08)
+* 如果没有也可以选择下面的文件直接下载到本地，自己建立modelsim project（如果这里不理解需要你去学习如何使用modelsim）
+Asynchronous-FIFO/
+├─ fifo.v
+├─ read_ctrl.v
+├─ write_ctrl.v
+├─ sync_gray.v
+├─ dual_port_ram.v
+├─ testbench.v
