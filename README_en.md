@@ -34,3 +34,18 @@ Since read and write operations use separate clocks, this introduces cross-clock
 2. Pointer Synchronization:
   * Write pointers are synchronized to the read clock domain to determine empty status.
   * Read pointers are synchronized to the write clock domain to determine full status.
+
+# How to use this repository？
+1.verilog
+* If you have modelsim, you can clone it locally and open the ancyfifo.mpf file to see all the codes:
+![image](https://github.com/user-attachments/assets/446aaf80-9e18-4b1e-95c1-5db1e954ae08)
+* If you don't have it, you can also choose to download the following file directly to your local computer and create a modelsim project yourself (if you don't understand this, you need to learn how to use modelsim) :
+```
+Asynchronous-FIFO/
+├─ fifo.v
+├─ read_ctrl.v
+├─ write_ctrl.v
+├─ sync_gray.v
+├─ dual_port_ram.v
+├─ testbench.v
+```
